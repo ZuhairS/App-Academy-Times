@@ -6,21 +6,24 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $sans-serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
+	background-color: $light-blue;
 	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
+	color: white;
+	font-weight: 700;
+	padding: 10px;
+	border-radius: 5px;
 	// transition:
 	// font-family:
-	// text-transform:
+	text-transform: uppercase;
 	// font-size:
-	// text-align:
+	text-align: center;
 }
 
 button:hover {
@@ -31,6 +34,10 @@ button:hover {
 /*
 	Header Rules
 */
+
+a:hover {
+	text-decoration: underline;
+}
 
 hr {
 	border: 0;

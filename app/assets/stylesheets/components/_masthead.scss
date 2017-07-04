@@ -4,6 +4,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	border-top: 1px solid $light-gray;
 }
 
 .language-nav {
@@ -29,6 +30,10 @@
 	display: flex;
 }
 
+.language-nav li:first-of-type {
+	font-weight: 700;
+}
+
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
@@ -47,6 +52,10 @@
 	border-right: 1px solid $light-gray;
 }
 
+.masthead-links li:last-of-type {
+	border-right: 0;
+}
+
 .masthead-links button {
 	background: none;
 	padding: 0px;
@@ -60,7 +69,7 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
